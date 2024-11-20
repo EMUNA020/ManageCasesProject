@@ -1,0 +1,2 @@
+C:\HMC\elastreger\Files\ClientSide\obj\Debug\ClientSide.esproj.CoreCompileInputs.cache
+C:\HMC\elastreger\Files\myProject\ClientSide\obj\Debug\ClientSide.esproj.CoreCompileInputs.cache

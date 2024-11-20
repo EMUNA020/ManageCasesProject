@@ -1,0 +1,4 @@
+<div>
+  <app-search (filterChanged)="applyFilter($event)" (sortChanged)="applySort($event)"></app-search>
+  <app-list [cases]="filteredCases"></app-list>
+</div>

@@ -1,0 +1,16 @@
+<div>
+  <input type="text"
+         placeholder="Search by case name"
+         (input)="onSearch($event)"  />
+  <select (change)="onStatusChange($event)">
+    <option value="Everything">Everything</option>
+    <option value="Active">Active</option>
+    <option value="Closed">Closed</option>
+  </select>
+  <label>
+    <input type="checkbox" (change)="onMyFilesChange($event)" />
+    My Files
+  </label>
+  <button (click)="onSort('openingDate')">Sort by Opening Date</button>
+  <button (click)="onSort('fileNumber')">Sort by File Number</button>
+</div>

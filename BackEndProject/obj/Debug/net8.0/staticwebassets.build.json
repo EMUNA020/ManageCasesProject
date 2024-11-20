@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "GA/wq5mySN//MwE2lvf7g0TlcosmxEdPvxG8EHDSDtU=",
+  "Source": "BackEndProject",
+  "BasePath": "_content/BackEndProject",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\HMC\\elastreger\\Files\\myProject\\ClientSide\\ClientSide.esproj",
+      "Version": 2,
+      "Source": "ClientSide",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,176 @@
+[
+  {
+    "ContainingType": "BackEndProject.Controllers.CaseController",
+    "Method": "CreateCase",
+    "RelativePath": "api/Case/CreateCase",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "caseDTO",
+        "Type": "BL.Services.DTO.CaseDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackEndProject.Controllers.CaseController",
+    "Method": "DeleteCase",
+    "RelativePath": "api/Case/DeleteCase/{id}/{userId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackEndProject.Controllers.CaseController",
+    "Method": "GetAllCases",
+    "RelativePath": "api/Case/GetAllCases",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackEndProject.Controllers.CaseController",
+    "Method": "GetCaseById",
+    "RelativePath": "api/Case/GetCaseById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackEndProject.Controllers.CaseController",
+    "Method": "UpdateCase",
+    "RelativePath": "api/Case/UpdateCase",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "caseDTO",
+        "Type": "BL.Services.DTO.CaseDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackEndProject.Controllers.CaseController",
+    "Method": "UpdateCaseStatus",
+    "RelativePath": "api/Case/UpdateCaseStatus/{caseId}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "caseId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "newStatus",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackEndProject.Controllers.DecisionController",
+    "Method": "AddDecision",
+    "RelativePath": "api/decision/AddDecision/{caseId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "caseId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "decision",
+        "Type": "BL.Services.DTO.DecisionDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackEndProject.Controllers.DecisionController",
+    "Method": "GetDecisions",
+    "RelativePath": "api/decision/GetDecisions/{caseId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "caseId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackEndProject.Controllers.DiscussionController",
+    "Method": "AddDiscussion",
+    "RelativePath": "api/discussion/AddDiscussion/{caseId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "caseId",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "discussion",
+        "Type": "BL.Services.DTO.DiscussionDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackEndProject.Controllers.DiscussionController",
+    "Method": "GetDiscussions",
+    "RelativePath": "api/discussion/GetDiscussions/{caseId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "caseId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
